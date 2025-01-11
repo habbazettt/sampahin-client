@@ -2,7 +2,7 @@
 
 # Sampahin : Waste Classification App
 
-**BASE_URL** : `http://localhost:5175`
+**BASE_URL** : `https://sampahin.netlify.app`
 
 ## About Project
 
@@ -26,6 +26,6 @@ Sampahin is a web-based application designed to assist users in waste management
 
 ## Licenses
 
-This project is licensed under the MIT License - see the `LICENSE` file for details
+This project is licensed under the MIT License - see the `LICENSE.md` file for details
 
 <img src="./public/Home Page - pic.png"/>

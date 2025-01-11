@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 
+const apiUrl = import.meta.env.VITE_API_URL;
+
 const FileUploader = () => {
     const [file, setFile] = useState(null);
     const [status, setStatus] = useState('idle');
@@ -38,7 +40,7 @@ const FileUploader = () => {
         formData.append('image', file);
 
         try {
-            const response = await axios.post('http://localhost:5000/predict', formData, {
+            const response = await axios.post(`${apiUrl}/predict`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
