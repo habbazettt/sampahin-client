@@ -1,10 +1,14 @@
-import FileUploader from "./components/FileUploader"
+import Navbar from "./components/Navbar"
+import Detect from "./sections/Detect"
+import Hero from "./sections/Hero"
 
 const App = () => {
   return (
-    <div>
-      <FileUploader />
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Detect />
+    </>
   )
 }
 
