@@ -14,7 +14,7 @@ Sampahin is a web-based application designed to assist users in waste management
 - **Waste Classification**: The application predicts the type of waste and provides explanations for the classification.
 - **Waste History**: Users can retrieve historical data on waste classifications, including details such as confidence scores and associated images.
 - **Category Filtering**: Users can filter waste records by specific categories.
-- **Articles** : Users can find articles related to waste management, recycling practices, and environmental sustainability that aim to educate users about the importance of proper waste disposal
+- **Articles** : Users can find articles related to waste management, recycling practices, and environmental sustainability that aim to educate users about the importance of proper waste disposal.
 
 ## Technologies Used
 
