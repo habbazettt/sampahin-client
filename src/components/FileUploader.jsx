@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Copyright from "./Copyright";
 
-const apiUrl = import.meta.env.VITE_API_URL_DEV;
+const apiUrl = import.meta.env.VITE_API_URL;
 
 const FileUploader = () => {
     const [file, setFile] = useState(null);
