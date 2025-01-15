@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className='flex items-end gap-2 md:gap-4'>
                         <img
                             src='/sampahin.png'
-                            width={160}
+                            width={144}
                         />
                     </div>
 
@@ -47,9 +47,9 @@ const Navbar = () => {
                     <div className='md:hidden'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                             <ul className='flex flex-col justify-center items-center gap-4'>
-                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'>Beranda</li>
-                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'>Histori</li>
-                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'>Artikel</li>
+                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'><Link to="/">Beranda</Link></li>
+                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'><Link to="/histories">Histori</Link></li>
+                                <li className='text-white px-3 py-2 duration-200 ease-in hover:text-primary hover:bg-white rounded-md'><Link to="/articles">Artikel</Link></li>
                             </ul>
                         </div>
                     </div>
