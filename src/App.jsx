@@ -11,7 +11,7 @@ const App = () => {
     try {
       setTimeout(() => {
         setIsLoading(false)
-      }, 4000)
+      }, 6500)
     } catch (error) {
       console.log(error)
     }
